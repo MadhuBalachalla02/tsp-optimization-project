@@ -529,7 +529,7 @@ int main(int argc, char* argv[]) {
     cerr << "--- Optimization Complete. Final Cost: " << fixed << best_cost << endl;
     cerr << "Total Time: " << fixed << elapsed_seconds << " seconds over " << iteration_count << " starts." << endl;
 
-    outputSolutionToFile(best_tour, "C:/Users/madhu/OneDrive/Desktop/Textbooks/optimization/Homework3/my_solution1.txt");
+    outputSolutionToFile(best_tour, "solutions_915552766.txt");
 
     return 0;
 }
